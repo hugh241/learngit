@@ -27,3 +27,10 @@
 5.git remote -v 查看远程库信息;
 6.git remote rm origin 删除远程库(删除关联).
 7.git clone 克隆远程库到本地(git clone git@github.com:hugh241/gitskills.git)
+八、分支管理
+1.查看分支：git branch
+2.创建分支：git branch <name>
+3.切换分支：git checkout <name>或者git switch <name>
+4.创建+切换分支：git checkout -b <name>或者git switch -c <name>
+5.合并某分支到当前分支：git merge <name>
+6.删除分支：git branch -d <name>
